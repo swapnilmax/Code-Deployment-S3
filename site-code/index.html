@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premium Static Site</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.08);
+      animation: fadeIn 1.2s ease;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+      background: linear-gradient(90deg, #ff00cc, #00eaff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 15px 0 25px;
+      font-size: 1.1rem;
+      opacity: 0.8;
+    }
+
+    .btn {
+      padding: 12px 28px;
+      font-size: 1rem;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      background: linear-gradient(90deg, #ff00cc, #00eaff);
+      color: #fff;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      opacity: 0.85;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Premium UI</h1>
+    <p>Static site par premium vibes laane ke liye perfect testing template.</p>
+    <button class="btn">Explore</button>
+  </div>
+</body>
+</html>
