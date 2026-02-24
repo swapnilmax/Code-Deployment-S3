@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'output/**'
+      - 'site-code/**'
 
 jobs:
   deploy:
