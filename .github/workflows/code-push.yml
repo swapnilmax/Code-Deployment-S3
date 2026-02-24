@@ -23,4 +23,4 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Sync specific folder to S3
-        run: aws s3 sync ./output s3://${{ vars.SITE_BUCKET }} --delete
+        run: aws s3 sync ./site-code s3://${{ vars.SITE_BUCKET }} --delete
