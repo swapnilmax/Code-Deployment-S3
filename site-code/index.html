@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Premium Static Site</title>
+  <title>Cat World Domination</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
@@ -27,13 +27,23 @@
       padding: 40px;
       text-align: center;
       box-shadow: 0 0 25px rgba(255, 255, 255, 0.08);
+      width: 420px;
       animation: fadeIn 1.2s ease;
     }
 
+    .cat-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 20px;
+      object-fit: cover;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      margin-bottom: 20px;
+    }
+
     h1 {
-      font-size: 3rem;
+      font-size: 2.4rem;
       margin: 0;
-      background: linear-gradient(90deg, #ff00cc, #00eaff);
+      background: linear-gradient(90deg, #ff00cc, #ffa200);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-weight: 600;
@@ -42,7 +52,7 @@
     p {
       margin: 15px 0 25px;
       font-size: 1.1rem;
-      opacity: 0.8;
+      opacity: 0.85;
     }
 
     .btn {
@@ -51,7 +61,7 @@
       border-radius: 30px;
       border: none;
       cursor: pointer;
-      background: linear-gradient(90deg, #ff00cc, #00eaff);
+      background: linear-gradient(90deg, #ff00cc, #ffa200);
       color: #fff;
       font-weight: 600;
       transition: 0.3s;
@@ -70,9 +80,10 @@
 </head>
 <body>
   <div class="card">
-    <h1>Premium UI</h1>
-    <p>Static site par premium vibes laane ke liye perfect testing template.</p>
-    <button class="btn">Explore</button>
+    <img class="cat-img" src="https://i.ibb.co/7R0FHx1/cat-warrior.jpg" alt="Cat" />
+    <h1>Cat World HQ</h1>
+    <p>Welcome, human. These cats are planning something big... very big. 😼</p>
+    <button class="btn">Enter The Cat Realm</button>
   </div>
 </body>
 </html>
